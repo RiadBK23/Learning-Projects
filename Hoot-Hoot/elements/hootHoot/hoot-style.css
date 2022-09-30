@@ -1,0 +1,132 @@
+#hoot-hoot-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#body {
+  width: 100%;
+  height: 100%;
+}
+
+.ear {
+  position: relative;
+  width: 40%;
+  margin: -20%;
+  left: 0%;
+  top: 0%;
+  z-index: 3;
+}
+
+.eye-brow {
+  position: relative;
+  width: 40%;
+  margin: -20%;
+  left: 0%;
+  top: 0%;
+  z-index: 2555546456456;
+}
+
+.hoot-hy-wing-l {
+  animation: hootHiWingL 2s linear;
+}
+
+@keyframes hootHiWingL {
+  10%,
+  90% {
+    transform: rotate(40deg);
+    left: -100%;
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.hoot-hy-wing-r {
+  animation: hootHiWingR 2s linear;
+}
+
+@keyframes hootHiWingR {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: rotate(-180deg);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: rotate(-150deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.wing {
+  position: relative;
+  width: 20%;
+  margin: -10%;
+  left: 0%;
+  top: 0%;
+}
+
+.eye-ball {
+  width: 34%;
+  height: 34%;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  margin: -17%;
+  z-index: 1;
+}
+
+.eye-ball-closed {
+  width: 34%;
+  height: 10%;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  position: relative;
+  margin: -18%;
+  border-bottom: 3px solid black;
+}
+
+.eye-iris {
+  width: 65%;
+  height: 65%;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    229deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-radius: 50%;
+  position: relative;
+  top: 5%;
+  left: 5%;
+}
+
+.eye-pupil {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.eye-light-reflection {
+  width: 20%;
+  height: 20%;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  top: 15%;
+  left: 15%;
+}
